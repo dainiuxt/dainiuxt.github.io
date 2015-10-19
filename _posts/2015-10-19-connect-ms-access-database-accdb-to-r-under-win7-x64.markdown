@@ -8,7 +8,7 @@ The very first tip for this case is you should use 32 bit version of R. To chang
 ~~~~~~~~
 library("RODBC") #load package
 db<-file.path("C:/path/to/your/database.accdb") #connect database.
-#Note the UNIX style slash (/). "\" is "escape character" so all "\"you should replace either with "/" or "\\"
+#Note the UNIX style slash (/). "\" is "escape character" so all "\" you should replace either with "/" or "\\"
 channel<-odbcConnectAccess2007(db) #internal RODBC function
 dataSetName<-sqlFetch(channel,"TableName") #read particular table from Access database file.
 close(channel) #do not forget this, otherwise you lock access database from editing.
