@@ -2,7 +2,9 @@ excerpt_separator: ""
 pygments: true
 markdown: kramdown
 url: http://dainiuxt.github.io
-title: Dainius
+title: Data Manipulation
+email: dainiuxt@gmail.com
+author: Dainius T.
 tagline: Data Manipulation Tips&Tricks
 description: R and Python related data manipulation tips.
 paginate: 5
