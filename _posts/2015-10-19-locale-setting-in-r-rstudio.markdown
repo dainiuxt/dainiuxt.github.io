@@ -5,18 +5,18 @@ layout: post
 ---
 If you have different locale from English (usually living outside US or UK), then pretty common problem can be simple task - get weekdays in English from dates.
 
-{% highlight ruby %}
+{% highlight r %}
 Sys.setlocale("LC_TIME", "C")
 {% endhighlight %} 
 
 do the trick and bypass
 
-{% highlight ruby %}
+{% highlight r %}
 OS reports request to set locale to "EN" cannot be honored
 {% endhighlight %} 
 
 error which is pretty common if you use command
 
-{% highlight ruby %}
+{% highlight r %}
 Sys.setlocale("LC_TIME", "English")
-{% endhighlight %} 
+{% endhighlight %}
