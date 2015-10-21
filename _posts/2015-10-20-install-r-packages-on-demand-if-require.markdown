@@ -3,7 +3,7 @@ published: true
 title: Install R packages on demand (if require) 
 layout: post
 ---
-{% highlight ruby %}
+{% highlight r %}
 if (!require("data.table")) {
 install.packages("data.table")
 }
@@ -12,4 +12,4 @@ install.packages("reshape2")
 }
 require("data.table")
 require("reshape2")
-{% endhighlight %} 
+{% endhighlight %}
