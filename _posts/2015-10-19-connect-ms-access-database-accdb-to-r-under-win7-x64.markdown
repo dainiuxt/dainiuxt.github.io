@@ -5,7 +5,7 @@ layout: post
 ---
 The very first tip for this case is you should use 32 bit version of R. To change your active R version you can go in menu Tools->Global Options while using Rstudio IDE and select prefered version of R.
 
-{% highlight ruby %}
+{% highlight r %}
 library("RODBC") #load package
 db<-file.path("C:/path/to/your/database.accdb") #connect database.
 #Note the UNIX style slash (/). "\" is "escape character" so all "\"  you should replace either with "/" or "\\"
