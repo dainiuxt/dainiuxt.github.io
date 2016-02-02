@@ -22,8 +22,8 @@ locate where your R installation is located.
 
 If you performing update (more recent version of R), copy all files from *library* subfolder of old R installation into new, but this time DON'T OVERWRITE! This operation vill preserve the packages you have installed in previous version of R. After copying update all your packages from RStudio window (Packages->Update). When packages update process will end check which packages failed to update (You will see warning messages near them in RStudio console). Remove these packages (write down names of failed packages and delete corresponding folders from *library* subfolder). For this you will ned to exit from RStudio. After deletion lauch RStudio again and execute packages install command in RStudio console:
 
-~~~
+{% highlight r %}
 install.packages(c("package1", "package2", "package3"))
-~~~
+{% endhighlight %}
 
 Congratulations, You are ready to go!
