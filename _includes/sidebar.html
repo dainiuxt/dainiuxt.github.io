@@ -5,6 +5,20 @@
       <p class="lead">{{ site.description }}</p>
     </div>
 
+<script>
+  (function() {
+    var cx = '000262236835934197075:be6omx7uodk';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+
     <ul class="sidebar-nav">
       <li class="sidebar-nav-item{% if page.title == "Contact me" %} active{% endif %}">
         <a href="/hello">Contacts</a>
