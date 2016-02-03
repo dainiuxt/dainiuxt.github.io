@@ -1,16 +1,16 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <h1>{{ site.title }}</h1>
+      <a href="/"><h1>{{ site.title }}</h1></a>
       <p class="lead">{{ site.description }}</p>
     </div>
 
     <ul class="sidebar-nav">
-      <li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}">
+      <!--li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}">
         <a href="/">Home</a>
-      </li>
+      </li-->
       <li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}">
-        <a href="https://dainiuxt.github.io/atom.xml">Atom feed</a>
+        <a href="https://dainiuxt.github.io/atom.xml">Feed</a>
       </li>
 
       {% comment %}
