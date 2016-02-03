@@ -261,6 +261,17 @@ a.sidebar-nav-item:focus {
   box-sizing: border-box;
 }
 
+.form-stacked input[type="text"] {
+  margin: 0.25em 0px;
+  padding: 0.5em 0.6em;
+  display: block;
+  border: 1px solid #CCC;
+  box-shadow: 0px 1px 3px #DDD inset;
+  border-radius: 4px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
 .form-stacked input[type="submit"] {
   margin: 0.25em 0px;
   padding: 0.5em 0.6em;
@@ -274,10 +285,11 @@ a.sidebar-nav-item:focus {
 }
 
 .form-stacked input[type="submit"]:hover {
- background-color: rgba(255, 255, 255, 0.5);
+ background-color: #EFEFEF;
+ color: #6A9FB5;
 }
 
-.form-stacked text {
+.form-stacked textarea {
 	width: 100%;
 	height: 120px;
 }
@@ -287,3 +299,6 @@ a.sidebar-nav-item:focus {
 
 .form-stacked input[type="email"]:focus::-webkit-input-placeholder { color:transparent; }
 .form-stacked input[type="email"]:focus:-moz-placeholder { color:transparent; }
+
+.form-stacked input[type="text"]:focus::-webkit-input-placeholder { color:transparent; }
+.form-stacked input[type="text"]:focus:-moz-placeholder { color:transparent; }
