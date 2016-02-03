@@ -14,8 +14,7 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }} | <a href="{{ post.url }}#disqus_thread"></a></span>
 
-    {{ post.content | strip_html | truncatewords: 50 }} <br />
-    <a href="{{ post.url }}">Read more &raquo;</a>
+    {{ post.content | strip_html | truncatewords: 50 }} <a href="{{ post.url }}">Read more &raquo;</a>
     
   </div>
   {% endfor %}
