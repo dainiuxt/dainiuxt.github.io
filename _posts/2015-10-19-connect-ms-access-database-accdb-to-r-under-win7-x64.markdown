@@ -12,6 +12,7 @@ db<-file.path("C:/path/to/your/database.accdb") #connect database.
 channel<-odbcConnectAccess2007(db) #internal RODBC function
 dataSetName<-sqlFetch(channel,"TableName") #read particular table from Access database file.
 close(channel) #do not forget this, otherwise you lock access database from editing.
+
 {% endhighlight %} 
 
 So far this works only in Windows but not in linux.
