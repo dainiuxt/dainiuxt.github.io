@@ -1,5 +1,6 @@
 excerpt_separator: ""
 pygments: true
+highlighter: rouge
 markdown: kramdown
 url: http://dainiuxt.github.io
 title: dainiuxt
