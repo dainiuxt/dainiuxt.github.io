@@ -1,0 +1,2 @@
+github: dainiuxt
+patreon: RubyOnRailsCoder
