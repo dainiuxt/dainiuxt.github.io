@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: "A Developer's Notebook - Repurposing an old Android phone as a Ruby web server"
 layout: post
 ---
